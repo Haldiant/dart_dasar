@@ -40,3 +40,12 @@ String:
 Dynamic:
 
 - tipe data digunakan dalam membuat variable yang dapat menampung segala jenis tipe data
+
+Konversi tipe data:
+
+- String to Number, menggunakan parse()
+- Number to String, menggunakan toString()
+- Number to Number, menggunakan toInt() atau toDouble()
+- Huruf tidak dapat dikonversi menggunakan kode diatas
+- boolean to String, menggunakan toString()
+- String to Boolean, menggunakan simbol perbandingan seperti =, ==, ===, !=
