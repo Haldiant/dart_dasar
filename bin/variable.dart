@@ -1,6 +1,8 @@
 void main() {
-  print("Nahal Widianto");
-  print("Nahal Widianto");
-  print("Nahal Widianto");
-  print("Nahal Widianto");
+  String name;
+  name = "Nahal Widinato";
+  print(name);
+  print(name);
+  print(name);
+  print(name);
 }
