@@ -23,3 +23,16 @@ Number:
 - <mark>double</mark> untuk menampilkan bilangan desimal (terdapat nilai pecahan)
   - penulisan nilai pecahan dipisahkan menggunakan titik (.)
 - <mark>num</mark> dapat digunakan pada value bilangan bulat dan bilangan desimal
+
+Bool:
+
+- kata kunci <mark>bool</mark> digunakan untuk menentukan true or false (benar atau salah pada suatu kondisi)
+
+String:
+
+- kata kunci tipe data text
+- value string disarankan menggunakan kutip satu
+- String interpolation, memasukkan variable ke dalam string menggunakan simbo (untuk variable sederhana) atau ${variable} (untuk variabel yang lebih kompleks)
+- Backslash, digunakan untuk menginput simbol seperti $ yang diunakan pada string interpolation ke dalam string
+- gunakan + atau whitespace (space, enter, tab) untuk Menggabungkan string
+- Multiline String gunakan petik 3 kali yang di akhiri dengan petik 3 kali
