@@ -9,4 +9,4 @@ Variable:
 - kata kunci final digunakan pada saat kita membuat variable tidak dapat dideklarasikan ulang
   - data pada variable final masih bisa diubah
 - kata kunci const membuat variable bersifat immuteable atau data tidak akan pernah berubah (const bersifat hardcode ketika kode di kompilasi)
-- kata kunci late digunakan pada saat akan memunculkan value hanya pada saat value tersebut dipanggil
+- kata kunci <mark> late </mark> digunakan pada saat akan memunculkan value hanya pada saat value tersebut dipanggil
