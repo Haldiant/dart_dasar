@@ -36,3 +36,7 @@ String:
 - Backslash, digunakan untuk menginput simbol seperti $ yang diunakan pada string interpolation ke dalam string
 - gunakan + atau whitespace (space, enter, tab) untuk Menggabungkan string
 - Multiline String gunakan petik 3 kali yang di akhiri dengan petik 3 kali
+
+Dynamic:
+
+- tipe data digunakan dalam membuat variable yang dapat menampung segala jenis tipe data
