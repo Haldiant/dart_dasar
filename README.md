@@ -70,3 +70,10 @@ Operator Perbandingan:
 - <mark><=</mark> kurang dari atau sam dengan
 
 Operator Penugasan:
+
+- <mark>+=</mark>
+- <mark>-=</mark>
+- <mark>\*=</mark>
+- <mark>/=</mark>
+- <mark>~/=</mark>
+- <mark>%=</mark>
