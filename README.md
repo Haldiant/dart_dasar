@@ -43,9 +43,30 @@ Dynamic:
 
 Konversi tipe data:
 
-- String to Number, menggunakan parse()
-- Number to String, menggunakan toString()
-- Number to Number, menggunakan toInt() atau toDouble()
+- String to Number, menggunakan <mark>parse()</mark>
+- Number to String, menggunakan <mark>toString()</mark>
+- Number to Number, menggunakan <mark>toInt()</mark> atau <mark>toDouble()</mark>
 - Huruf tidak dapat dikonversi menggunakan kode diatas
-- boolean to String, menggunakan toString()
-- String to Boolean, menggunakan simbol perbandingan seperti =, ==, ===, !=
+- boolean to String, menggunakan <mark>toString()</mark>
+- String to Boolean, menggunakan simbol perbandingan seperti <mark>=, ==, ===, !=</mark>
+
+Operator Aritmatika:
+
+- <mark>+</mark> untuk pertambahan
+- <mark>- , -expression</mark> untuk pengurangan atau negatif
+- <mark>\*</mark> untuk perkalian
+- <mark>/</mark> untuk pembagian (hasil double)
+- <mark>~/</mark> untuk pembagian (hasil int)
+- <mark>%</mark> untuk sisa bagi
+
+Operator Perbandingan:
+
+- menghasilkan data boolean
+- <mark>==</mark> sama dengan
+- <mark>!=</mark> tidak sama dengan
+- <mark>></mark> lebih dari
+- <mark><</mark> kurang dari
+- <mark>>=</mark> lebih dari atau sama dengan
+- <mark><=</mark> kurang dari atau sam dengan
+
+Operator Penugasan:
