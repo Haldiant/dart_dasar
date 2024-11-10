@@ -96,9 +96,31 @@ operator type cast:
 
 List:
 
-- List<tipe data> nama_variabel = []; atau nama_variable = <tipe data>[];
+- List<tipe data> namaVariabel = []; atau namaVariable = <tipe data>[];
 - Manipulasi data list:
   - list.add(value) => menambahkan data ke dalam list
   - list[index] => memanggil data berdasarkan input index
   - list[index] = value => mengubah data berdasarkan index yang ditentukan
     - list.removeAt(index) => menghapus data berdasarkan input index
+
+Set
+
+- digunakan untuk menyimpan data unik
+- tidak dapat menginput data duplikat
+- tidak ada index pada set
+- Set<tipe data> namaVariable = {}; atau namaVariable = <tipe data>{};
+- Manipulasi data Set:
+  - set(namaVariable).lenght => menampilkan panjang data set
+  - set(namaVariable).add(value) => menambahkan data ke dalam set
+  - set(namaVariable).remove(value) => menghapus data dari set
+
+Map:
+
+- digunakan pada saat mebutuhkan data yang terhubung dengan key
+- value dapat duplikat karena data dibedakan dengan key
+- Map<tipeKey, tipeData> namaVariable => {}; atau namaVariable = <tipeKey, tipeData>{};
+- Manipulasi data Map
+  - map(namaVariable).lenght => menampilkan panjang data map
+  - map[key] => mengambil data pada map berdasarkan key
+  - map(namaVariable)[key] = value => mengubah data pada map berdasarkan key
+  - map(namaVariable).remove(key) => menghapus data dari map berdasarkan key
