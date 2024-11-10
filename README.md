@@ -124,3 +124,12 @@ Map:
   - map[key] => mengambil data pada map berdasarkan key
   - map(namaVariable)[key] = value => mengubah data pada map berdasarkan key
   - map(namaVariable).remove(key) => menghapus data dari map berdasarkan key
+
+else_if:
+
+- if(parameter){output}
+  - output if akan dieksekusi pada saat value bernilai true berdasarkan parameter
+- else {output}
+  - output else akan dieksekusi pada saat value bernilai false berdasarkan parameter
+- else if (parameter){output}
+  - jika salah satu kondisi terpenuhi, maka pencarian output true akan berhenti dan if else selanjutnya tidak akan dieksekusi
