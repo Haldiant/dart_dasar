@@ -6,7 +6,7 @@ void main() {
   print(lastName);
 
   //String Interpolation
-  String fullName = '$firstName ${lastName}';
+  String fullName = '$firstName $lastName';
   print(fullName);
 
   //String Backslash
@@ -14,7 +14,7 @@ void main() {
   print(text);
 
   //Menggabungkan String
-  var nama1 = firstName + " " + lastName;
+  var nama1 = "$firstName $lastName";
   var nama2 = 'Nahal' ' Widianto';
   print(nama1);
   print(nama2);

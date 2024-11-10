@@ -77,3 +77,19 @@ Operator Penugasan:
 - <mark>/=</mark>
 - <mark>~/=</mark>
 - <mark>%=</mark>
+- Increment (++) => contoh i++ atau ++i
+- decreent (--) => contoh i-- atau --i
+
+operator logika:
+
+- operator untuk dua buah bool
+- output operator logika adalah data bool
+- && = Logika AND
+- || = logika OR
+- ! = logika kebalikan
+
+operator type cast:
+
+- as mengubah tipe data menjadi tipe data yang kita inginkan
+- is mencari data yang kita inginkan, true jika object sesuai dengan tipe data yang kita cari
+- is! mencara data yang bukan kita inginkan, true jika object tidak sesuai dengan tipe data yang kita cari
