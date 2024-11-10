@@ -93,3 +93,12 @@ operator type cast:
 - as mengubah tipe data menjadi tipe data yang kita inginkan
 - is mencari data yang kita inginkan, true jika object sesuai dengan tipe data yang kita cari
 - is! mencara data yang bukan kita inginkan, true jika object tidak sesuai dengan tipe data yang kita cari
+
+List:
+
+- List<tipe data> nama_variabel = []; atau nama_variable = <tipe data>[];
+- Manipulasi data list:
+  - list.add(value) => menambahkan data ke dalam list
+  - list[index] => memanggil data berdasarkan input index
+  - list[index] = value => mengubah data berdasarkan index yang ditentukan
+    - list.removeAt(index) => menghapus data berdasarkan input index
