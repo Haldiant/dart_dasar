@@ -133,3 +133,31 @@ else_if:
   - output else akan dieksekusi pada saat value bernilai false berdasarkan parameter
 - else if (parameter){output}
   - jika salah satu kondisi terpenuhi, maka pencarian output true akan berhenti dan if else selanjutnya tidak akan dieksekusi
+
+Switchcase:
+
+- versi sederhana if else
+- perbandingan untuk operator == saja
+- gunakan break untuk menghentikan sistem mencari output
+- jika semua kondisi tidak tepenuhi gunakan default untuk output terakhir
+
+Null:
+
+- null merupakan representasi data kosong
+- secara default variable bersifat non-nullable (wajib memiliki value)
+- untuk membuat variable dapat nullable dapat menggunakan simbol ? ke dalam tipe data variable
+- contoh => TipeData? namaVariable = null;
+
+Ternary:
+
+- bentuk sederhana dari if
+- terdiri dari kondisi yang dievaluasi, jika menghasilkan true maka nilai pertama yang akan dipanggil dan jika false nilai kedua yang akan dipanggil
+- contoh => namaVariable = kondisi bool ? true : false;
+
+Null safety:
+
+- perlu pengecekan apakah data nullable atau tidak jika nullable maka perlu dilakukan pengecekan menggunakan null check (menggunakan if)
+- konversi data non nullable ke nullable dapat langsung dilakukan
+- konversi data dari nullable ke non nullable harus dilakukan null check terlebih dahulu supaya code dapat di compile
+- pengecekan null dapat menggunakan simbol ??, pengetikan kode mirip seperti ternary tetapi lebih pendek
+  - var namaVariable(non nullable) = namaVariable(nullable) ?? default Value;
