@@ -1,9 +1,6 @@
 void main() {
   //null check
-  int? age = null;
-  if (age != null) {
-    double ageDouble = age.toDouble();
-  }
+  int? age;
 
   //konversi data non nullable ke nullable
   String name = 'nahal';
@@ -12,15 +9,11 @@ void main() {
   print(nullableName);
 
   //konversi data nullable ke non nullable
-  int? nullablePrice = null;
-  // perlu null check supaya variable dapat digunakan nullable dapat digiunakan pada variable non nullable
-  if (nullablePrice != null) {
-    int price = nullablePrice;
-  }
+  int? nullablePrice;
   print(nullablePrice);
 
   //pengecekan null dapat menggunakan default value, gunakan simbol ??
-  String? guest = null;
+  String? guest;
   String guestName = guest ?? 'Guest Name';
 
   print(guestName);
