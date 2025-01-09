@@ -170,3 +170,9 @@ Function Return Value:
 function short expression:
 
 > menyingkat penulisan function tanpa perlu menambahkan simbol {} dan return
+
+Inner Function
+
+> function di dalam outer function
+> hanya dapat dipanggil di dalam outer function
+> inner function tidak bisa dipanggil oleh function diluar outer function dimana inner function berada
