@@ -161,3 +161,9 @@ Null safety:
 - konversi data dari nullable ke non nullable harus dilakukan null check terlebih dahulu supaya code dapat di compile
 - pengecekan null dapat menggunakan simbol ??, pengetikan kode mirip seperti ternary tetapi lebih pendek
   - var namaVariable(non nullable) = namaVariable(nullable) ?? default Value;
+
+Function Return Value:
+
+function yang mengembalikan data
+
+- ubah function menggunakan void menjadi tipe data yang ingin dikembalikan
