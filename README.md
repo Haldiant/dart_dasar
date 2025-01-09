@@ -164,6 +164,9 @@ Null safety:
 
 Function Return Value:
 
-function yang mengembalikan data
+> function yang mengembalikan data
+> ubah function menggunakan void menjadi tipe data yang ingin dikembalikan
 
-- ubah function menggunakan void menjadi tipe data yang ingin dikembalikan
+function short expression:
+
+> menyingkat penulisan function tanpa perlu menambahkan simbol {} dan return
